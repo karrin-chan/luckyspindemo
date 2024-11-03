@@ -14,10 +14,9 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url('./imgs/background.jpg'); /* Thay đổi URL này thành URL hình ảnh của bạn */
-    background-size: cover; /* Bao phủ toàn bộ trang */
+    background-size: auto; /* Bao phủ toàn bộ trang */
     background-position: center; /* Căn giữa hình ảnh */
     background-repeat: no-repeat; /* Không lặp lại hình ảnh */
-	background-attachment: fixed;
     background-color: rgba(255, 255, 255, 0.8); /* Màu nền thay thế nếu hình ảnh không hiển thị */
 }
 
@@ -41,7 +40,7 @@ ul {
 	margin: 1rem 0;
 	width: var(--size-wheel);
 	height: var(--size-wheel);
-	border: 10px solid rgb(0, 12, 184);
+	border: 10px solid rgb(0, 0, 0);
 	border-radius: 50%;
 	list-style: none;
 	overflow: hidden;
@@ -121,11 +120,11 @@ li {
 }
 
 .text-1 {
-	background-color: rgb(0, 89, 255);
+	background-color: rgb(0, 98, 102)
 }
 
 .text-2 {
-	background-color: rgb(126, 182, 255);
+	background-color: rgb(196, 69, 105)
 }
 
 .main {
@@ -199,4 +198,7 @@ button:hover {
 
 .close-popup:hover {
 	background-color: #d11a1a;
+}
+.wheel {
+    backface-visibility: hidden;
 }
