@@ -12,14 +12,12 @@
 	const closePopupBtn = $('.close-popup');
 
 	const listGift = [
-		{ text: 'I phone 13', percent: 1 / 100 },
-		{ text: 'Siêu xe', percent: 0 / 100 },
-		{ text: '1tr vnd', percent: 0 / 100 },
-		{ text: 'Khóa học html-css free', percent: 0 / 100 },
-		{ text: 'Laptop', percent: 0 / 100 },
-		{ text: 'Một cái like', percent: 99 / 100 },
-		{ text: 'Khóa học js free', percent: 0 / 100 },
-		{ text: 'Áo khoác Gucci', percent: 0 / 100 },
+		{ text: 'Voucher giảm 10%', percent: 10 / 100 },
+		{ text: '05 túi mù', percent: 20 / 100 },
+		{ text: 'Free 01 ly size M', percent: 5 / 100 },
+		{ text: '01 Gấu MiGo', percent: 5 / 100 },
+		{ text: 'Free 01 ly size S', percent: 50 / 100 },
+		{ text: 'Chúc bạn may mắn lần sau', percent: 10 / 100 },
 	];
 
 	const size = listGift.length;
